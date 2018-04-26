@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void performClickForMaster()
     {
-        Toast.makeText(MainActivity.this,"You are in Master",Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this,"Hello ! You are in Master.",Toast.LENGTH_LONG).show();
     }
 
 }
