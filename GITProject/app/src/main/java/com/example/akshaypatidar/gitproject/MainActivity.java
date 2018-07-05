@@ -14,6 +14,11 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+
+
+        //Test Today
         setContentView(R.layout.activity_main);
 
         textViewCenterText = (TextView) findViewById(R.id.textViewCenterText);
