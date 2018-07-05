@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         //Test Today
         setContentView(R.layout.activity_main);
 
+
         textViewCenterText = (TextView) findViewById(R.id.textViewCenterText);
         textViewCenterText.setOnClickListener(this);
     }
@@ -35,5 +36,20 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             default:
                 break;
         }
+
+        TextView textViewCenterText=(TextView)findViewById(R.id.textViewCenterText);
+        textViewCenterText.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                performClickForMaster();
+            }
+        });
     }
+
+    public void performClickForMaster()
+    {
+        Toast.makeText(MainActivity.this,"Hello ! You are in Master.",Toast.LENGTH_LONG).show();
+    }
+
 }
+
