@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     private TextView textViewCenterText;
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
